@@ -4,8 +4,14 @@
 
 def minOperations(n):
     """
-    minOperations
-    Gets fewest # of operations needed to result in exactly n H characters
+    Calculates the fewest number of operations needed to result in exactly n H characters
+    in the file, given the operations Copy All and Paste.
+
+    Parameters:
+    n (int): The target number of H characters.
+
+    Returns:
+    int: The fewest number of operations needed, or 0 if n is impossible to achieve.
     """
     # all outputs should be at least 2 char: (min, Copy All => Paste)
     if (n < 2):
